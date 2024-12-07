@@ -17,7 +17,7 @@ const handleItemClick = (index) => {
 };
   return (
     <div className=" h-full bg-gray  top-0 p-4">
-      <ul className="relative w-[20px] flex flex-col mt-14">
+      <ul className="relative w-[20px] flex flex-col mt-2">
         {navItems.map((item, index) => (
           <li
             key={index}
