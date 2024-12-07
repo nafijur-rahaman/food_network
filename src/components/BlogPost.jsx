@@ -22,7 +22,7 @@ const BlogPost = ({ fontSize, onFontSizeChange }) => {
 
   return (
     <>
-      <aside className="col-span-12 lg:col-span-3 bg-white shadow-lg rounded-lg p-6 md:p-4 lg:p-4 h-auto lg:h-[700px] top-28 overflow-auto">
+      <aside className="col-span-12 lg:col-span-3 bg-white shadow-lg rounded-lg p-6 md:p-4 lg:p-4 h-auto lg:h-[450px] top-28 overflow-auto">
         <h2 className="text-lg lg:text-xl font-bold mb-4 lg:mb-6 text-gray-800">
           Filter
         </h2>
@@ -167,7 +167,7 @@ const BlogPost = ({ fontSize, onFontSizeChange }) => {
               </div>
             </div>
           ) : (
-            <div className="bg-gradient-to-r from-green-400 to-blue-500 p-6 text-lg rounded-lg shadow-lg text-center text-white font-semibold">
+            <div className=" md:w-[570px] lg:w-[350px] xl:w-[550px] 2xl:w-[720px]  bg-orange-400 p-6 text-lg rounded-lg shadow-lg text-center text-white font-semibold">
               <p>Please select a food item to learn more.</p>
             </div>
           )}
