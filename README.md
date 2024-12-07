@@ -13,6 +13,7 @@ Welcome to the **Food  Network Blog** React app! This web application provides a
 
 - **React**: The frontend framework used to build the app’s user interface.
 - **Tailwind CSS**: For modern, responsive styling and custom layouts.
+- **Vercle**: For deploying the project.
   
 ## Live Demo
    Check out the live version here: https://food-network-lemon.vercel.app/
