@@ -1,8 +1,15 @@
 import React, { useState } from "react";
 import appleImage from "../assets/images/apple.jpg";
 import strawberryImage from "../assets/images/strawberry.jpg";
+import orangeImage from "../assets/images/orange.jpg";
+import bananaImage from "../assets/images/banana.png";
+import mangoImage from "../assets/images/mango.png";
 import carrotImage from "../assets/images/carrot.jpg";
 import tomatoImage from "../assets/images/tomato.jpg";
+import brocoliImage from "../assets/images/brocoli.jpg";
+import onionImage from "../assets/images/onion.jpg";
+import capsicumImage from "../assets/images/capsicum.jpg";
+
 export default function Filter() {
   const [filter, setFilter] = useState("Fruits");
   const [searchTerm, setSearchTerm] = useState("");
@@ -11,16 +18,16 @@ export default function Filter() {
     Fruits: [
       { name: "Apple", vitamin: "A", image: appleImage },
       { name: "Strawberry", vitamin: "C", image: strawberryImage },
-      { name: "Banana", vitamin: "B6", image: appleImage },
-      { name: "Orange", vitamin: "C", image: appleImage },
-      { name: "Mango", vitamin: "A", image: appleImage },
+      { name: "Banana", vitamin: "B6", image: bananaImage },
+      { name: "Orange", vitamin: "C", image: orangeImage },
+      { name: "Mango", vitamin: "A", image: mangoImage },
     ],
     Vegetables: [
       { name: "Carrot", vitamin: "C", image: carrotImage },
       { name: "Tomato", vitamin: "C", image: tomatoImage },
-      { name: "Spinach", vitamin: "K", image: carrotImage },
-      { name: "Broccoli", vitamin: "C", image: carrotImage },
-      { name: "Potato", vitamin: "B6", image: carrotImage },
+      { name: "Capsicum", vitamin: "K", image: capsicumImage },
+      { name: "Broccoli", vitamin: "C", image: brocoliImage },
+      { name: "Onion", vitamin: "B6", image: onionImage },
     ],
   };
   const filteredItems = foodItems[filter].filter((item) =>

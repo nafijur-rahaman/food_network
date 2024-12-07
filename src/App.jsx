@@ -6,7 +6,7 @@ import Sidebar from './components/Sidebar'
 
 
 function App() {
-  const [fontSize, setFontSize] = useState(16);
+  const [fontSize, setFontSize] = useState(14);
   const handleFontSizeChange = (e) => {
     setFontSize(e.target.value);
   };
