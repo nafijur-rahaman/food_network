@@ -1,12 +1,33 @@
 /* Toggle switch */
 .toggle-checkbox:checked {
-    right: 0;
-    border-color: #f97316; /* Orange */
+  right: 0;
+  border-color: #f97316; /* Orange */
+}
+.toggle-checkbox:checked + .toggle-label {
+  background-color: #f97316; /* Orange */
+}
+.toggle-checkbox {
+  transition: all 0.3s ease-in-out;
+}
+
+
+@media (max-width: 768px) {
+  .navbar-icons {
+    display: none; /* Hide icons on small screens */
   }
-  .toggle-checkbox:checked + .toggle-label {
-    background-color: #f97316; /* Orange */
+  .search-box {
+    width: 80%; /* Adjust search box size on smaller screens */
   }
-  .toggle-checkbox {
-    transition: all 0.3s ease-in-out;
+}
+
+
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none; /* Hide sidebar */
   }
-  
+  .menu-toggle {
+    display: block; /* Show hamburger menu */
+  }
+}
+
