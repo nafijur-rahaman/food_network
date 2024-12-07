@@ -13,7 +13,9 @@ Welcome to the **Food  Network Blog** React app! This web application provides a
 
 - **React**: The frontend framework used to build the app’s user interface.
 - **Tailwind CSS**: For modern, responsive styling and custom layouts.
-
+  
+## Live Demo
+   Check out the live version here: https://food-network-lemon.vercel.app/
 
 ## Getting Started
 
@@ -28,7 +30,7 @@ To get the project running on your local machine, follow these steps:
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/yourusername/fruit-vegetable-blog-react-app.git
+   git clone https://github.com/nafijur-rahaman/food_network.git
    
 2. Navigate to the project directory:
    ```bash
